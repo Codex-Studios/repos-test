@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+}
+
+/* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━NAVIGATION━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ */
+
+.nav {
+  background-image: url(/SRC/Images/Banner.png);
+  background-size: cover;
+  padding-block: 2%;
+}
+
+.BannerLogo {
+  width: 35%;
+  transform: translate(1%, 0%);
+}
+
+.BannerTitle {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 210%;
+  color: white;
+  position: absolute;
+  transform: translate(-1%, 190%);
+  display: inline-block;
+}
+
+.BannerContainer {
+  position: relative;
+  text-align: left;
+  display: inline-block;
+}
+
+/* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━NAVIGATION ITEMS━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ */
+
+.nav-items {
+    transform: translate(130%, -200%);
+    display: inline-block;
+    list-style: none;
+    
+} 
+
+.nav-item {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 200%;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #06BFFF, #2D73FF);
+    background-size: cover;
+    padding: 15px;
+    border-style:solid;
+    border-color: black;  
+}
+
+.nav-item a:hover {
+    color: black;
+    transition: all ease-in-out 250ms;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━NAVIGATION ITEMS━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ */
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to top, #06BFFF, #2D73FF);
+  border-radius: 120px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: black;
+  transition: all ease-in-out 250ms;
+}
+
+/* ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━SECTION 1━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ */
+
+.section1 {
+  background-color: #282b30;
+  padding: 1px;
+}
+
+.image-collection {
+  background-color: #424549;
+  padding: 20px;
+  width: 555px;
+  height: 710px;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+.image1 {
+  border-style:solid;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.image2 {
+  position: relative;
+  top: 15px;
+  border-style:solid;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.data-collection {
+  background-color: #424549;
+  padding: 20px;
+  width:  555px;
+  height: 710px;
+  position: relative;
+  left: 1000px;
+  bottom: 565px;
+}
+
+.details-head {
+  position: relative;
+  bottom: 30px;
+  left: -40px;
+}
+
+.text {
+  position: relative;
+  bottom: 60px;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  transform: translate(0%, -149%);
+}
+
+.trailer {
+  border-style:solid;
+  border-color: black;
+  border-radius: 5px;
+  position: relative;
+  bottom: 50px;
+  transform: translate(-7.5%, 75%);
+}
+
+
+.modal {
+  background-image: url("https://t4.ftcdn.net/jpg/01/89/24/45/360_F_189244555_ieurJd3t9hSSufU2WB02L9lKuT1ZB1Pj.jpg");
+  display: none; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.8); 
+  padding-top: 60px;
+}
+
+.modal-construct{
+  transform: translate(45%);
+  width: 1000px;
+}
+
+.placeholder-home a{
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 200%;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #06BFFF, #2D73FF);
+  background-size: cover;
+  padding: 15px;
+  border-style:solid;
+  border-color: black;  
+  transform: translate(1000%, 50%);
+  color: white;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.placeholder-home a:hover {
+  color: black;
+  transition: all ease-in-out 250ms;
+}
